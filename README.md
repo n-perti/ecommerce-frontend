@@ -3,105 +3,106 @@
 [![Next.js](https://img.shields.io/badge/Next.js-13-blue)](https://nextjs.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-Una aplicación frontend moderna y responsiva para plataformas de e-commerce, desarrollada con Next.js y Tailwind CSS. Este proyecto ofrece una interfaz de usuario atractiva, optimizada para una experiencia de compra fluida y eficiente.
+A modern and responsive frontend application for e-commerce platforms, built with Next.js and Tailwind CSS. This project leverages the power of SSR (Server-Side Rendering) and SSG (Static Site Generation) to deliver fast load times and improved SEO.
 
-## Descripción
+## Description
 
-Este proyecto representa el frontend de un sistema de comercio electrónico. Aprovecha la potencia de Next.js para ofrecer renderizado del lado del servidor (SSR) y generación de sitios estáticos (SSG), lo que permite tiempos de carga rápidos y SEO optimizado. La interfaz se ha desarrollado utilizando Tailwind CSS, lo que facilita el diseño de componentes modernos y personalizables.
+This project represents the frontend of an e-commerce system. Using Next.js, it provides:
+  
+- **Fast Performance:** Through server-side rendering and static generation.
+- **Responsive Design:** A seamless experience across desktops, tablets, and mobile devices.
+- **Intuitive Navigation:** Clean and organized routing for effortless browsing.
+- **Reusable Components:** A modular structure built with React, promoting maintainability and scalability.
+- **API Integration:** Smooth communication with the backend to manage products, users, and orders.
 
-## Características
+## Features
 
-- **Interfaz Responsiva**: Diseño adaptable a dispositivos móviles, tablets y escritorio.
-- **Optimización SEO**: Aprovecha las capacidades de SSR/SSG de Next.js para mejorar el posicionamiento en buscadores.
-- **Rutas y Navegación Fluida**: Navegación intuitiva entre páginas y secciones.
-- **Componentes Reutilizables**: Estructura modular basada en componentes de React.
-- **Integración con API RESTful**: Comunicación eficiente con el backend para gestionar productos, usuarios y pedidos.
-- **Soporte para Personalización**: Estilos fácilmente modificables gracias a Tailwind CSS.
+- **Responsive UI:** Designed to work seamlessly on all devices.
+- **SEO Optimization:** Utilizes Next.js features for better search engine performance.
+- **Modern Styling:** Built with Tailwind CSS for quick and customizable styling.
+- **Dynamic Routing:** Efficient page rendering with built-in routing of Next.js.
+- **Easy Deployment:** Recommended deployment on platforms like Vercel for optimal performance.
 
-## Tecnologías Utilizadas
+## Technologies Used
 
-- **Next.js**: Framework React para aplicaciones web escalables.
-- **React.js**: Biblioteca para construir interfaces de usuario.
-- **Tailwind CSS**: Framework CSS para un diseño rápido y personalizado.
-- **Vercel**: Plataforma recomendada para el despliegue de aplicaciones Next.js.
+- **Next.js:** Framework for server-rendered React applications.
+- **React.js:** JavaScript library for building user interfaces.
+- **Tailwind CSS:** Utility-first CSS framework for rapid UI development.
+- **Vercel:** Recommended platform for seamless deployment of Next.js applications.
 
-## Requisitos Previos
+## Prerequisites
 
-- [Node.js](https://nodejs.org/) v16 o superior.
-- npm, yarn o pnpm para la gestión de dependencias.
+- [Node.js](https://nodejs.org/) v16 or higher.
+- npm, yarn, or pnpm for package management.
 
-## Instalación
+## Installation
 
-1. **Clona el repositorio:**
+1. **Clone the Repository:**
 
     ```bash
     git clone https://github.com/n-perti/ecommerce-frontend.git
     cd ecommerce-frontend
     ```
 
-2. **Instala las dependencias:**
+2. **Install Dependencies:**
 
     ```bash
     npm install
-    # o, alternativamente:
+    # or, alternatively:
     yarn install
     ```
 
-3. **Inicia el servidor de desarrollo:**
+3. **Run the Development Server:**
 
     ```bash
     npm run dev
-    # o
+    # or
     yarn dev
     ```
 
-4. **Accede a la aplicación:**
+4. **Access the Application:**
 
-    Abre tu navegador en [http://localhost:3000](http://localhost:3000) para ver la aplicación en funcionamiento.
+    Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to view the application.
 
-## Estructura del Proyecto
+## Project Structure
 
-La organización del proyecto sigue las convenciones de Next.js y se estructura de la siguiente forma:
+The project follows the standard conventions of a Next.js application:
 
 ```
-├── public/             # Recursos públicos (imágenes, fuentes, etc.)
-├── src/                # Código fuente de la aplicación
-│   ├── app/            # Páginas y rutas de la aplicación
-│   ├── components/     # Componentes reutilizables de la UI
-│   ├── styles/         # Archivos de estilos (CSS, Tailwind config, etc.)
-│   └── lib/            # Funciones auxiliares e integraciones con APIs
-├── .eslintrc.json      # Configuración de ESLint para mantener la calidad del código
-├── package.json        # Dependencias y scripts del proyecto
-└── next.config.js      # Configuración de Next.js
+├── public/             # Static assets like images and fonts.
+├── src/                # Source code of the application.
+│   ├── app/            # Application pages and routes.
+│   ├── components/     # Reusable UI components.
+│   ├── styles/         # Global and component-specific styles.
+│   └── lib/            # Utility functions and API integrations.
+├── .eslintrc.json      # ESLint configuration for code quality.
+├── package.json        # Project dependencies and scripts.
+└── next.config.js      # Custom configuration for Next.js.
 ```
 
-## Despliegue
+## Deployment
 
-La forma más sencilla de desplegar este proyecto es a través de [Vercel](https://vercel.com/):
+The easiest way to deploy this project is through [Vercel](https://vercel.com/):
 
-1. Conecta tu repositorio a Vercel.
-2. Configura las variables de entorno necesarias.
-3. Despliega la aplicación con un solo clic.
+1. Connect your repository to Vercel.
+2. Configure any required environment variables.
+3. Deploy with a single click.
 
-Consulta la [documentación de Next.js](https://nextjs.org/docs/deployment) para más detalles sobre despliegues.
+For more details, please refer to the [Next.js Deployment Documentation](https://nextjs.org/docs/deployment).
 
-## Contribuciones
+## Contributions
 
-¡Se agradecen las contribuciones! Si deseas aportar mejoras o corregir errores, sigue estos pasos:
+Contributions are welcome! To contribute:
 
-1. Haz un fork del repositorio.
-2. Crea una rama para tu nueva funcionalidad o corrección (`git checkout -b feature/nueva-funcionalidad`).
-3. Realiza tus cambios y haz commits con mensajes descriptivos.
-4. Abre un pull request explicando los cambios realizados.
+1. Fork the repository.
+2. Create a new branch for your feature or fix (`git checkout -b feature/your-feature`).
+3. Commit your changes with clear messages.
+4. Open a pull request describing your changes.
 
-## Licencia
+## License
 
-Este proyecto se distribuye bajo la [Licencia MIT](LICENSE).
+This project is licensed under the [MIT License](LICENSE).
 
-## Contacto
+## Contact
 
-Si tienes preguntas, sugerencias o deseas colaborar, no dudes en abrir un issue en el repositorio o contactarme directamente a [hi@nicolaspertierra.com](mailto:hi@nicolaspertierra.com).
-
----
-
-Este README proporciona una visión clara y profesional del proyecto, facilitando su comprensión y uso tanto para desarrolladores como para posibles empleadores en tu portfolio. ¡Éxito con tu proyecto!
+For questions or suggestions, feel free to open an issue or contact me directly at [nicopertierra@hotmail.com](mailto:nicopertierra@hotmail.com).
